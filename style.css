@@ -1,0 +1,1039 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+   background: #0B1020;
+   color: white;
+}
+
+/* header navbar */
+header
+{
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    margin-left: 50px;
+}
+.navbar
+{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    margin-left: 500px;
+    
+}
+
+.navbar li
+{
+    position: relative;
+}
+
+.navbar a
+{
+    color:white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+   
+}
+.navbar a:hover
+{
+   color:  rgb(95, 97, 225);
+   text-decoration:underline;
+   
+   
+}
+.contact-text
+{
+    position: absolute;
+    display: none;
+    background-color: rgba(191, 222, 246, 0.63);
+    width: 250px;
+    height: 12vh;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+}
+
+.contact-text a
+{
+  color: rgb(3, 3, 3);
+  text-align: center;
+  font-size: 17px;
+  text-decoration: none;
+ 
+}
+.contact-text li
+{
+    list-style: none;
+    padding: 6px;
+}
+.contact:hover .contact-text
+{
+    display:block;
+}
+
+
+.iiicons
+{
+    font-size: 30px;
+    margin-left: 300px;
+    padding: px;
+    cursor: pointer;
+
+}
+.iiicons:hover
+{
+    color: rgb(95, 97, 225);
+}
+/* hero home */
+
+
+.hero
+{
+    background:  #151B2F;;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    border-radius: 15px;
+    border: 2px solid #404d79cb;
+    box-shadow: 0px 0px 17px rgb(112, 110, 160);
+    opacity: 1.7;
+    
+}
+
+.hero-text,.hero-img
+{
+    flex: 1;
+}
+
+.hero-text
+{
+    margin-left:250px ;
+    font-size: 60px;
+}
+.hero p 
+{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hero h4 
+{
+    font-size: 25px;
+    margin-bottom: 9px;
+    color:  rgb(82, 84, 229);
+    text-shadow: 1px 1px 3px   rgb(92, 82, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.hero h3
+{
+    font-size: 25px;
+    margin-top: 10px;
+    color:  rgb(82, 84, 229);
+    text-shadow: 1px 1px 3px   rgb(92, 82, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.hero img
+{
+    width: 800px;
+    border-radius: 100%;
+    
+    
+}
+.btn
+{
+    background-color:  rgb(92, 82, 228);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 16px;
+    border-radius: 9px;
+    color: white;
+    box-shadow:0px 0px 3px 3px rgb(92, 82, 228); 
+    opacity: 1.7;
+
+}
+.btn:hover
+{
+   opacity: 0.7;
+   color: white;
+   
+}
+    
+/* Cards Section*/
+
+.ccard
+{
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.ccard h4
+{
+    font-size: 27px;
+    font-weight: lighter;
+    color: rgb(82, 84, 229);
+}
+.ccard h2
+{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.cards
+{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 230px;
+
+}
+.card
+{
+    background: #151B2F;
+    width: 400px;
+    height: 40vh;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #404d79cb;
+    border-radius: 12px;
+    opacity: 0.7;
+
+
+}
+.card:hover 
+{
+  opacity: 1.7;
+}
+.card h2
+{
+    font-size: 30px;
+}
+.card p
+{
+   color:rgb(190, 190, 190);
+   font-size: 19px;
+}
+
+.icons
+{
+    font-size: 80px;
+    background: rgb(92, 82, 228);
+    border-radius: 60%;
+    max-width: 124px;
+    height: 12vh;
+    margin: 20px auto;
+    padding: 13px; 
+    
+    
+}
+
+.icons svg
+{
+    width: 50px;
+    height: 40px;
+    fill: white;  
+}
+
+/* About Section*/
+.about
+{
+    display: flex;
+    background: #151B2F;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 2px solid #404d79cb;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    margin-bottom: 200px;
+    overflow: auto;
+    border-radius: 100px;
+    padding: 50px;
+
+}
+.about-text
+{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+.about h3
+{
+    color:  rgb(92, 82, 228);
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about h2
+{
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.about p
+{
+    font-size: 25px;
+    font-weight:lighter;
+    
+}
+.imgabout
+{
+    border-radius: 100px;
+}
+
+.about button
+{
+    background: none;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    padding: 17px;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+.about button:hover
+{
+    opacity: 1.7;
+    color:rgb(99, 101, 235);
+    border: 2px solid rgb(99, 101, 235);
+}
+.footer
+{
+    background: #090D1A;
+    text-align: center;
+    font-size: 26px;
+    padding: 80px;
+    font-weight: lighter;
+}
+
+/* portfolio Page*/
+
+.bttn 
+{
+    background:  rgb(99, 101, 235);
+    padding: 12px;
+    border-radius: 10px;
+    width: 8%;
+    text-align: center;
+    margin-left: 310px;
+}
+.bttn:hover
+{
+    background: transparent;
+    border:2px solid rgb(99, 101, 235);
+}
+
+.Phero
+{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+.Phero p
+{
+    font-size: 34px;
+    font-weight:lighter;
+    color:rgb(202, 202, 202);
+}
+.Phero h1
+{
+    font-size: 60px;
+    margin-top: 30px;
+    
+}
+.buttonss
+{
+    margin: 20px;
+    justify-content: center; 
+    background: none;  
+     margin-left: 550px;
+     margin-top: 60px;
+     
+}
+.button a 
+
+{
+    text-decoration: none;
+     border: 2px solid #2A3250;
+    border-radius: 9px;
+    padding: 12px;
+    box-shadow: 0px 0px 8px rgba(112, 110, 160, 0.775)inset;
+    font-size: 20px;
+ 
+}
+.button a:hover
+{
+    background: rgb(92, 82, 228);;
+}
+.btnn 
+{
+     color: white;
+     margin: 10px ;
+     font-size: 27px;  
+}
+
+.allcards
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 90px;
+    justify-content: center;
+}
+.CARD
+{
+    width: 25%;
+    height: 40vh;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #151B2F;
+    border: 2px solid #404d79cb;
+    text-align: center;
+    opacity: 0.7;
+}
+.CARD:hover
+{
+    box-shadow: 0px 0px 17px rgb(112, 110, 160);
+    opacity: 1.7;
+}
+.CARD img
+{
+    width:100%;
+}
+.CARD h3
+{
+    color:rgb(112, 110, 160) ;
+    font-size: 26px;
+}
+.CARD h2
+{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+/* Contact Page*/
+
+.C-hero
+{
+ text-align: center;
+ margin-top: 90px;
+ margin-bottom: 40px;
+}
+.C-hero h2
+{
+    font-size: 60px;
+    margin-top: 30px;
+}
+.C-hero p
+{
+    font-size: 34px;
+    font-weight:lighter;
+    color:rgb(202, 202, 202);
+}
+
+.FORM
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+     width: 100%;
+     height: 70vh;
+     margin-left: 60px;
+     padding: 60px;
+     margin: 30px;
+     background:#151B2F ;
+     border: 2px solid #2A3250;
+     border-radius: 12px;
+    
+    
+}
+form:hover
+{
+    box-shadow: 0px 0px 17px rgb(112, 110, 160);
+}
+label
+{
+    display: flex;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+
+}
+input,textarea
+{
+width: 100%;
+height: 2vh;
+padding: 20px;
+margin-top: 5px;
+margin-bottom: 15px;
+border-radius: 16px;
+background: transparent;
+border: 2px solid #2A3250;
+margin-top: 20px;
+color: white;
+font-size: 17px;
+
+}
+::placeholder
+{
+    font-size:14px;
+    color: rgba(255, 255, 255, 0.67);
+   
+}
+
+form button
+{
+   background: rgb(92, 82, 228);
+   padding: 13px;
+   border-radius: 9px;
+   color: white;
+   font-size: 14px;
+   width: 100%;
+   border: none;
+}
+form button:hover
+{
+    background: transparent;
+    border: 2px solid  #2A3250;
+
+}
+.email
+{
+    background:#151B2F ;
+    border: 2px solid #2A3250;
+    border-radius: 12px;
+    width: 80%;
+    height: 70vh;
+    
+    
+}
+.email:hover
+{
+  box-shadow: 0px 0px 17px rgb(112, 110, 160);
+
+}
+.emailsss
+{
+    padding: 20px;
+    margin: 20px;
+    margin-left:40px;
+   
+}
+
+
+.followme
+{
+    padding: 20px;
+    margin: 20px;
+    font-size: 27px;
+   
+}
+.followme h3
+{
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+dt
+{
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+dd
+{
+    font-size: 36;
+    color: rgba(255, 255, 255, 0.666);
+}
+hr
+{
+    width: 80%;
+    margin: 2px auto;    
+    margin-top: 60px;
+    background: transparent;
+    border: 2px solid  rgba(255, 255, 255, 0.613);
+}
+
+
+/* resposive parts phone and */
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+/* Tablets and smaller laptops */
+@media (max-width: 1200px) {
+
+    header {
+        margin: 30px;
+        margin-left: 30px;
+    }
+
+    .navbar {
+        margin-left: auto;
+    }
+
+    .iiicons {
+        margin-left: 30px;
+    }
+
+    .hero {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .hero-text {
+        margin-left: 60px;
+        font-size: 45px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .allcards {
+        width: 90%;
+        margin: 60px auto 100px;
+        justify-content: center;
+    }
+
+    .CARD {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .buttonss {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .bttn {
+        margin-left: 0;
+        width: auto;
+    }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        margin: 25px 15px;
+        text-align: center;
+        gap: 25px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 18px;
+        margin: 0;
+        padding: 8px;
+    }
+
+    .contact-text {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+
+    .contact-text a {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .iiicons {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    /* Home Hero */
+    .hero {
+        flex-direction: column;
+        margin: 40px 15px 0;
+        padding: 30px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .hero-text,
+    .hero-img {
+        width: 100%;
+        flex: none;
+    }
+
+    .hero-text {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .hero h4,
+    .hero h3 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .hero p br {
+        display: none;
+    }
+
+    .hero img {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .btn {
+        display: inline-block;
+        font-size: 17px;
+        padding: 12px 18px;
+    }
+
+    /* Services */
+    .ccard {
+        margin-top: 100px;
+        padding: 0 15px;
+    }
+
+    .ccard h4 {
+        font-size: 21px;
+    }
+
+    .ccard h2 {
+        font-size: 32px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        min-height: 330px;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 25px;
+    }
+
+    .card p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .card p br {
+        display: none;
+    }
+
+    .icons {
+        width: 100px;
+        max-width: 100px;
+        height: 100px;
+        padding: 20px;
+    }
+
+    /* About */
+    .about {
+        flex-direction: column;
+        width: calc(100% - 30px);
+        margin: 70px 15px 100px;
+        padding: 30px 20px;
+        border-radius: 30px;
+        gap: 30px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about h3 {
+        font-size: 22px;
+    }
+
+    .about h2 {
+        font-size: 32px;
+    }
+
+    .about p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .about p br {
+        display: none;
+    }
+
+    .imgabout {
+        width: 100%;
+    }
+
+    .imgabout img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* Portfolio */
+    .Phero {
+        margin: 60px 15px 30px;
+    }
+
+    .Phero h1 {
+        font-size: 40px;
+    }
+
+    .Phero p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .buttonss {
+        margin: 30px 15px;
+        text-align: center;
+    }
+
+    .button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .button a {
+        font-size: 16px;
+        padding: 10px 12px;
+        margin: 0;
+    }
+
+    .btnn {
+        margin: 0;
+    }
+
+    .allcards {
+        width: calc(100% - 30px);
+        margin: 50px 15px 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .CARD {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        min-height: 350px;
+        margin: 0;
+    }
+
+    .CARD h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .CARD h3 {
+        font-size: 20px;
+    }
+
+    /* Contact */
+    .C-hero {
+        margin: 70px 15px 30px;
+    }
+
+    .C-hero h2 {
+        font-size: 40px;
+    }
+
+    .C-hero p {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    .C-hero p br {
+        display: none;
+    }
+
+    .FORM {
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+        padding: 0 15px;
+    }
+
+    form {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 25px 20px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        height: auto;
+        min-height: 50px;
+        padding: 15px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    textarea {
+        min-height: 120px;
+        resize: vertical;
+    }
+
+    form button {
+        font-size: 16px;
+        padding: 13px;
+    }
+
+    .email {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .emailsss {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    dt {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    dd {
+        font-size: 17px;
+        word-break: break-word;
+    }
+
+    hr {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .followme {
+        padding: 10px;
+        margin: 10px;
+        font-size: 22px;
+    }
+
+    .followme h3 {
+        margin-top: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 40px 20px;
+        font-size: 18px;
+    }
+}
+
+
+/* Very small phones */
+@media (max-width: 400px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .hero-text {
+        font-size: 25px;
+    }
+
+    .hero h4,
+    .hero h3 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero img {
+        width: 90%;
+    }
+
+    .ccard h2 {
+        font-size: 28px;
+    }
+
+    .card {
+        min-height: 310px;
+    }
+
+    .Phero h1 {
+        font-size: 34px;
+    }
+
+    .C-hero h2 {
+        font-size: 34px;
+    }
+
+    .button a {
+        font-size: 14px;
+    }
+}
