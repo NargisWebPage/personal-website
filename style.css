@@ -24,6 +24,7 @@ header
     text-align: center;
     display: flex;
     margin-left: 500px;
+    font-size: 20px;
     
 }
 
@@ -52,7 +53,7 @@ header
 {
     position: absolute;
     display: none;
-    background-color: rgba(191, 222, 246, 0.63);
+    background-color: rgba(175, 162, 233, 0.63);
     width: 250px;
     height: 12vh;
     margin-top: 20px;
